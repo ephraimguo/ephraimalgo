@@ -17,8 +17,9 @@ public class SortInsatnce {
 
     public static boolean isSorted(Comparable[] arr) {
         for (int i = 1; i < arr.length; i++) {
-            if (less(arr[i], arr[i - 1])) {
+            if (less(arr[i - 1], arr[i])) {
                 return false;
+
             }
         }
 
