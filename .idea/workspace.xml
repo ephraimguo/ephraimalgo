@@ -1,29 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f97ee471-7f68-48ec-b475-59c1a5fe8850" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ephraim/algo/sortings/QuickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ephraim/algo/sortings/ShellSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+    <list default="true" id="a2e3eb9b-ec6b-4925-b867-33ec529d5dfc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EphraimAlgorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/EphraimAlgorithm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EphraimAlgorithm/META-INF/EphraimAlgorithm.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EphraimAlgorithm/META-INF/EphraimAlgorithm.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EphraimAlgorithm/ephraim/algo/basics/Practices.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EphraimAlgorithm/ephraim/algo/basics/Practices.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EphraimAlgorithm/ephraim/algo/helpers/SortHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EphraimAlgorithm/ephraim/algo/helpers/SortHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EphraimAlgorithm/ephraim/algo/sortings/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EphraimAlgorithm/ephraim/algo/sortings/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EphraimAlgorithm/ephraim/algo/sortings/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EphraimAlgorithm/ephraim/algo/sortings/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EphraimAlgorithm/ephraim/algo/sortings/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EphraimAlgorithm/ephraim/algo/sortings/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/EphraimAlgorithm/ephraim/algo/sortings/SortInsatnce.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/EphraimAlgorithm/ephraim/algo/sortings/SortInsatnce.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ephraim/algo/basics/Practices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ephraim/algo/basics/Practices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ephraim/algo/helpers/SortHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ephraim/algo/helpers/SortHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ephraim/algo/sortings/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ephraim/algo/sortings/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ephraimalgo/ephraim/algo/sortings/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ephraimalgo/ephraim/algo/sortings/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ephraimalgo/ephraim/algo/sortings/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ephraimalgo/ephraim/algo/sortings/QuickSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ephraim/algo/sortings/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ephraim/algo/sortings/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ephraim/algo/sortings/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ephraim/algo/sortings/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ephraim/algo/sortings/SortInsatnce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ephraim/algo/sortings/SortInsatnce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ephraim/algo/sortings/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ephraim/algo/sortings/ShellSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +26,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZYbx4VB3LSOUtypRFydzHjG4ZJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -91,21 +77,33 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="472" key="GridCell.Tab.0.bottom" timestamp="1585022135367">
-      <screen x="-216" y="-1177" width="1920" height="1177" />
+    <state x="1050" y="607" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585068535912">
+      <screen x="0" y="23" width="2560" height="1378" />
     </state>
+    <state x="1050" y="607" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1585068535912" />
+    <state x="853" y="312" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1585071088969">
+      <screen x="0" y="23" width="2560" height="1378" />
+    </state>
+    <state x="853" y="312" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1585071088969" />
+    <state width="596" height="1229" key="GridCell.Tab.0.bottom" timestamp="1585073104018">
+      <screen x="0" y="23" width="2560" height="1378" />
+    </state>
+    <state width="596" height="1229" key="GridCell.Tab.0.bottom/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1585073104018" />
     <state width="1878" height="472" key="GridCell.Tab.0.bottom/0.23.1440.847/-216.-1177.1920.1177@-216.-1177.1920.1177" timestamp="1585022135367" />
-    <state width="1878" height="472" key="GridCell.Tab.0.center" timestamp="1585022135366">
-      <screen x="-216" y="-1177" width="1920" height="1177" />
+    <state width="596" height="1229" key="GridCell.Tab.0.center" timestamp="1585073104017">
+      <screen x="0" y="23" width="2560" height="1378" />
     </state>
+    <state width="596" height="1229" key="GridCell.Tab.0.center/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1585073104017" />
     <state width="1878" height="472" key="GridCell.Tab.0.center/0.23.1440.847/-216.-1177.1920.1177@-216.-1177.1920.1177" timestamp="1585022135366" />
-    <state width="1878" height="472" key="GridCell.Tab.0.left" timestamp="1585022135366">
-      <screen x="-216" y="-1177" width="1920" height="1177" />
+    <state width="596" height="1229" key="GridCell.Tab.0.left" timestamp="1585073104017">
+      <screen x="0" y="23" width="2560" height="1378" />
     </state>
+    <state width="596" height="1229" key="GridCell.Tab.0.left/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1585073104017" />
     <state width="1878" height="472" key="GridCell.Tab.0.left/0.23.1440.847/-216.-1177.1920.1177@-216.-1177.1920.1177" timestamp="1585022135366" />
-    <state width="1878" height="472" key="GridCell.Tab.0.right" timestamp="1585022135367">
-      <screen x="-216" y="-1177" width="1920" height="1177" />
+    <state width="596" height="1229" key="GridCell.Tab.0.right" timestamp="1585073104018">
+      <screen x="0" y="23" width="2560" height="1378" />
     </state>
+    <state width="596" height="1229" key="GridCell.Tab.0.right/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1585073104018" />
     <state width="1878" height="472" key="GridCell.Tab.0.right/0.23.1440.847/-216.-1177.1920.1177@-216.-1177.1920.1177" timestamp="1585022135367" />
     <state x="409" y="-314" key="run.anything.popup" timestamp="1585045305767">
       <screen x="-216" y="-1177" width="1920" height="1177" />
