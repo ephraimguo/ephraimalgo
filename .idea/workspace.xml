@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2e3eb9b-ec6b-4925-b867-33ec529d5dfc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="f97ee471-7f68-48ec-b475-59c1a5fe8850" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ephraim/algo/sortings/DequeueSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ephraimalgo/ephraim/algo/sortings/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ephraimalgo/ephraim/algo/sortings/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ephraimalgo/ephraim/algo/sortings/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ephraimalgo/ephraim/algo/sortings/QuickSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ephraim/algo/sortings/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ephraim/algo/sortings/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ephraim/algo/sortings/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ephraim/algo/sortings/ShellSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +37,20 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.DequeueSort">
+    <configuration name="DequeueSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ephraim.algo.sortings.DequeueSort" />
+      <module name="ephraimalgo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ephraim.algo.sortings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ephraim.algo.sortings.Main" />
       <module name="ephraimalgo" />
@@ -55,6 +66,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DequeueSort" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -77,34 +89,43 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1050" y="607" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585068535912">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state x="320" y="113" key="#Inspections" timestamp="1585128248492">
+      <screen x="0" y="23" width="1440" height="847" />
+    </state>
+    <state x="320" y="113" key="#Inspections/0.23.1440.847/-236.-1177.1920.1177@0.23.1440.847" timestamp="1585128248492" />
+    <state x="591" y="382" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1585106649545">
+      <screen x="0" y="23" width="1440" height="847" />
     </state>
     <state x="1050" y="607" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1585068535912" />
+    <state x="591" y="382" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.23.1440.847/-236.-1177.1920.1177@0.23.1440.847" timestamp="1585106649545" />
     <state x="853" y="312" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1585071088969">
       <screen x="0" y="23" width="2560" height="1378" />
     </state>
     <state x="853" y="312" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1585071088969" />
-    <state width="596" height="1229" key="GridCell.Tab.0.bottom" timestamp="1585073104018">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state width="498" height="698" key="GridCell.Tab.0.bottom" timestamp="1585129372627">
+      <screen x="0" y="23" width="1440" height="847" />
     </state>
     <state width="596" height="1229" key="GridCell.Tab.0.bottom/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1585073104018" />
     <state width="1878" height="472" key="GridCell.Tab.0.bottom/0.23.1440.847/-216.-1177.1920.1177@-216.-1177.1920.1177" timestamp="1585022135367" />
-    <state width="596" height="1229" key="GridCell.Tab.0.center" timestamp="1585073104017">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state width="498" height="698" key="GridCell.Tab.0.bottom/0.23.1440.847/-236.-1177.1920.1177@0.23.1440.847" timestamp="1585129372627" />
+    <state width="498" height="698" key="GridCell.Tab.0.center" timestamp="1585129372627">
+      <screen x="0" y="23" width="1440" height="847" />
     </state>
     <state width="596" height="1229" key="GridCell.Tab.0.center/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1585073104017" />
     <state width="1878" height="472" key="GridCell.Tab.0.center/0.23.1440.847/-216.-1177.1920.1177@-216.-1177.1920.1177" timestamp="1585022135366" />
-    <state width="596" height="1229" key="GridCell.Tab.0.left" timestamp="1585073104017">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state width="498" height="698" key="GridCell.Tab.0.center/0.23.1440.847/-236.-1177.1920.1177@0.23.1440.847" timestamp="1585129372627" />
+    <state width="498" height="698" key="GridCell.Tab.0.left" timestamp="1585129372626">
+      <screen x="0" y="23" width="1440" height="847" />
     </state>
     <state width="596" height="1229" key="GridCell.Tab.0.left/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1585073104017" />
     <state width="1878" height="472" key="GridCell.Tab.0.left/0.23.1440.847/-216.-1177.1920.1177@-216.-1177.1920.1177" timestamp="1585022135366" />
-    <state width="596" height="1229" key="GridCell.Tab.0.right" timestamp="1585073104018">
-      <screen x="0" y="23" width="2560" height="1378" />
+    <state width="498" height="698" key="GridCell.Tab.0.left/0.23.1440.847/-236.-1177.1920.1177@0.23.1440.847" timestamp="1585129372626" />
+    <state width="498" height="698" key="GridCell.Tab.0.right" timestamp="1585129372627">
+      <screen x="0" y="23" width="1440" height="847" />
     </state>
     <state width="596" height="1229" key="GridCell.Tab.0.right/-1920.383.1920.1057/0.23.2560.1378@0.23.2560.1378" timestamp="1585073104018" />
     <state width="1878" height="472" key="GridCell.Tab.0.right/0.23.1440.847/-216.-1177.1920.1177@-216.-1177.1920.1177" timestamp="1585022135367" />
+    <state width="498" height="698" key="GridCell.Tab.0.right/0.23.1440.847/-236.-1177.1920.1177@0.23.1440.847" timestamp="1585129372627" />
     <state x="409" y="-314" key="run.anything.popup" timestamp="1585045305767">
       <screen x="-216" y="-1177" width="1920" height="1177" />
     </state>

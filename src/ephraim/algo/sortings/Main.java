@@ -1,13 +1,12 @@
 package ephraim.algo.sortings;
 
 import ephraim.algo.helpers.SortHelper;
-import jdk.nashorn.tools.Shell;
 
 import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        Comparable[] arr = SortHelper.generateArr(0, 1000, 100000);
+        Comparable[] arr = SortHelper.generateArr(0, 1000, 1000000);
         Comparable[] copy1 = Arrays.copyOf(arr, arr.length);
         Comparable[] copy2 = Arrays.copyOf(arr, arr.length);
 
