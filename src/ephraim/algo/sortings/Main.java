@@ -1,8 +1,8 @@
 package ephraim.algo.sortings;
 
-import ephraim.algo.helpers.SortHelper;
-
 import java.util.Arrays;
+
+import ephraim.algo.helpers.SortHelper;
 
 public class Main {
     public static void main(String[] args) {
