@@ -3,9 +3,13 @@ package ephraim.algo.sortings;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class DequeueSort<T extends Comparable<T>> extends SortInsatnce{
+/**
+ * 2.1.14
+ */
+public class DequeueSort extends SortInsatnce{
     public static void main(String[] args) {
         Queue<Integer> Q = new LinkedList<Integer>();
+        Queue<Integer> P = new LinkedList<>();
 
         for (int i = 0; i < 10; i++) {
             Q.add((int) (Math.random() * 20));
@@ -13,23 +17,25 @@ public class DequeueSort<T extends Comparable<T>> extends SortInsatnce{
 
         //DequeueSort dequeueSort = new DequeueSort<>();
 
-        /*DequeueSort.show(Q);
-        DequeueSort.toEnd(Q);
         DequeueSort.show(Q);
-
-        DequeueSort.swapHead(Q);
-        DequeueSort.show(Q);*/
-
+        DequeueSort.sort(Q, P);
+        DequeueSort.show(Q);
+        DequeueSort.show(P);
     }
 
-    public static void sort(Queue<Integer> Q) {
+    public static void sort(Queue<Integer> Q, Queue<Integer> P) {
         // 1st loop to remain the biggest number on top
-        Integer[] arr = (Integer[]) Q.toArray();
+        Integer[] arr = (Integer[]) Q.toArray(new Integer[Q.size()]);
 
-        for (int i = 0; i < Q.size(); i++) {
-            swapHead(Q);
-            toEnd(Q);
+        while (!Q.isEmpty()) {
+            for (int i = 0; i < Q.size(); i++) {
+                swapHead(Q);
+                toEnd(Q);
+            }
+
+            P.add(Q.remove());
         }
+
     }
 
     public static void toEnd(Queue Q) {
@@ -39,12 +45,20 @@ public class DequeueSort<T extends Comparable<T>> extends SortInsatnce{
     public static void show(Queue Q) {
         Object[] arr = Q.toArray();
 
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + " ");
+        if (Q.isEmpty()) {
+            System.out.println("Queue is empty");
+
+        } else {
+            for (int i = 0; i < arr.length; i++) {
+                System.out.print(arr[i] + " ");
+
+            }
+
+            System.out.println();
 
         }
 
-        System.out.println();
+
     }
 
     public static void swapHead(Queue Q) {
@@ -54,7 +68,7 @@ public class DequeueSort<T extends Comparable<T>> extends SortInsatnce{
 
         int n = arr.length;
 
-        if (arr[0].compareTo(arr[1]) < 0) {
+        if (arr.length <= 1 || arr[0].compareTo(arr[1]) < 0) {
             return;
         }
 

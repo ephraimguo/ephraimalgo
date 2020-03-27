@@ -1,7 +1,5 @@
 package ephraim.algo.sortings;
 
-import com.sun.tools.internal.xjc.AbortException;
-
 public class SortInsatnce {
     public static void sort(Comparable[] arr) {
 

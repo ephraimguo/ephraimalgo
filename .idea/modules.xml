@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ephraimalgo.iml" filepath="$PROJECT_DIR$/ephraimalgo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EphraimAlgorithm.iml" filepath="$PROJECT_DIR$/EphraimAlgorithm.iml" />
     </modules>
   </component>
 </project>
