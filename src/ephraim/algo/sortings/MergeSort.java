@@ -8,7 +8,7 @@ public class MergeSort extends SortInsatnce{
     public static void main(String[] args) {
         Comparable[] arr = SortHelper.generateArr(0, 10, 20);
         MergeSort.show(arr);
-        sort(arr);
+        sort2(arr);
         MergeSort.show(arr);
     }
 
@@ -16,6 +16,16 @@ public class MergeSort extends SortInsatnce{
         int left = 0;
         int right = arr.length - 1;
         internalSort(arr, left, right);
+
+    }
+
+    public static void sort2(Comparable[] arr) { // bottom up
+        int n = arr.length;
+        for (int size = 1; size <= n; size += size) {
+            for (int i = 0; i + size < n; i += size + size) {
+                merge(arr, i + size - 1, i, Math.min(i + size + size - 1, n - 1));
+            }
+        }
 
     }
 
@@ -29,7 +39,11 @@ public class MergeSort extends SortInsatnce{
         internalSort(arr, left, mid);
         internalSort(arr, mid + 1, right);
 
-        merge(arr, mid, left, right);
+        if (arr[mid].compareTo(arr[mid + 1]) > 0) {
+            merge(arr, mid, left, right);
+
+        }
+        // merge(arr, mid, left, right);
     }
 
     public static void merge(Comparable[] arr, int mid, int left, int right) {
@@ -37,39 +51,28 @@ public class MergeSort extends SortInsatnce{
         int right_idx = mid + 1;
 
         Comparable[] result = Arrays.copyOfRange(arr, left, right + 1);
-        System.out.println("left: " + left);
-        System.out.println("right: " + right);
-        System.out.println("mid: " + mid);
 
-        MergeSort.show(result);
 
         for (int i = left; i <= right; i++) {
 
-            /*if (left_idx >= mid && right_idx >= right) {
-                break;
-            }*/
 
             if (left_idx > mid) {
                 arr[i] = result[right_idx - left];
-                //swap(arr, i, right_idx);
 
                 right_idx++;
 
             }else if (right_idx > right) {
                 arr[i] = result[left_idx - left];
-                //swap(arr, i, left_idx);
 
                 left_idx++;
 
-            }else if (arr[left_idx].compareTo(arr[right_idx]) < 0) {
+            }else if (result[left_idx - left].compareTo(result[right_idx - left]) < 0) {
                 arr[i] = result[left_idx - left];
-                //swap(arr, i, left_idx);
 
                 left_idx++;
 
-            } else if(arr[left_idx].compareTo(arr[right_idx]) >= 0){
+            } else if(result[left_idx - left].compareTo(result[right_idx - left]) >= 0){
                 arr[i] = result[right_idx - left];
-                //swap(arr, i, right_idx);
 
                 right_idx++;
 
@@ -79,7 +82,6 @@ public class MergeSort extends SortInsatnce{
 
         Comparable[] result2 = Arrays.copyOfRange(arr, left, right + 1);
 
-        MergeSort.show(result2);
     }
 
     public static void show(Comparable[] arr) {
