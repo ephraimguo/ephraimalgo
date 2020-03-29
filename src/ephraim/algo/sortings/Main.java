@@ -10,6 +10,7 @@ public class Main {
         Comparable[] copy1 = Arrays.copyOf(arr, arr.length);
         Comparable[] copy2 = Arrays.copyOf(arr, arr.length);
         Comparable[] copy3 = Arrays.copyOf(arr, arr.length);
+        Comparable[] copy4 = Arrays.copyOf(arr, arr.length);
 
 /*        SortHelper.testSort("ephraim.algo.sortings.SelectionSort", arr);
         SortHelper.testSort("ephraim.algo.sortings.InsertionSort", copy1);*/
@@ -18,6 +19,11 @@ public class Main {
         QuickSort.sort2(copy1);
         long b = System.currentTimeMillis();
         System.out.println("ephraim.algo.sortings.QuickSort2 time used: " + (b - a) + "ms");
+
+        a = System.currentTimeMillis();
+        QuickSort.sort3(copy4);
+        b = System.currentTimeMillis();
+        System.out.println("ephraim.algo.sortings.QuickSort3 time used: " + (b - a) + "ms");
 
         SortHelper.testSort("ephraim.algo.sortings.ShellSort", copy2);
         SortHelper.testSort("ephraim.algo.sortings.MergeSort", copy3);
